@@ -29,7 +29,7 @@ Render view:
 ```ruby
 <%= render "shared_rating/rating_partial", add_class_rating: "punctuality", default_checked: 3, show_half_star: false, disable_rating: false %>
 ```
-- add_class_rating: class of star
+- add_class_rating: class of star (or param permit)
 - default_checked: default checked you want
 - show_half_star: enable half star if true
 - disable_rating: clickable
