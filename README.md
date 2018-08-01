@@ -4,9 +4,9 @@
 ## Installation
 
 Requires: 
-	Bootstrap 4
-	jquery-rails
-	font-awesome-rails
+- Bootstrap 4
+- jquery-rails
+- font-awesome-rails
 
 Add this line to your application's Gemfile:
 
@@ -26,7 +26,8 @@ Or install it yourself as:
 
 Render view: 
 
-```<%= render "shared_rating/rating_partial", add_class_rating: "punctuality", default_checked: 3, show_half_star: false, disable_rating: false %>
+```ruby
+<%= render "shared_rating/rating_partial", add_class_rating: "punctuality", default_checked: 3, show_half_star: false, disable_rating: false %>
 ```
 - add_class_rating: class of star
 - default_checked: default checked you want
