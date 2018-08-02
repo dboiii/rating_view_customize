@@ -43,10 +43,10 @@
 
   .rating > input:checked ~ label, /* show gold star when clicked */
   .rating:not(:checked) > label:hover, /* hover current star */
-  .rating:not(:checked) > label:hover ~ label { color: #007676;  } /* hover previous stars in list */
+  .rating:not(:checked) > label:hover ~ label { color: #ece603;  } /* hover previous stars in list */
 
   .rating > input:checked + label:hover, /* hover current star when changing rating */
   .rating > input:checked ~ label:hover,
   .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-  .rating > input:checked ~ label:hover ~ label { color: #006766;  }
+  .rating > input:checked ~ label:hover ~ label { color: #ece603;  }
 }

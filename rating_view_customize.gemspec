@@ -32,8 +32,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
 
-  spec.add_dependency "sass-rails"
-  spec.add_dependency "jquery-rails"
+  spec.add_dependency "sass-rails", '~> 5.0.7'
+  spec.add_dependency "jquery-rails", '~> 4.3.3'
   spec.add_dependency "bootstrap", '~> 4.0.0'
-  spec.add_dependency "font-awesome-rails"
+  spec.add_dependency "font-awesome-rails", '~> 4.7.0.4'
 end
