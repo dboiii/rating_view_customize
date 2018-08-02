@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Rating view for rails using css.}
   spec.description   = %q{}
   spec.homepage      = "https://github.com/dboiii/rating_view_customize"
+  spec.license          = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
